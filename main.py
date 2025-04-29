@@ -6,3 +6,5 @@ app = FastAPI()
 @app.get("/", response_class=PlainTextResponse)
 async def root():
     return "Timeweb Cloud + FastAPI = ❤️"
+
+raise Exception()
