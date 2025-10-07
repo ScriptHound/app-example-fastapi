@@ -7,5 +7,3 @@ app = FastAPI()
 async def root():
     print("Endpoint called")
     return "Timeweb Cloud + FastAPI = ❤️"
-
-raise Exception()
